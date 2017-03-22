@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import massFunctions
 
 
-data = requests.get('https://bkpw.net/stats.php?idp=').text ## need to enter alliance ad here
+data = requests.get('https://bkpw.net/stats.php?idp=').text ## need to enter alliance id here
 soup = BeautifulSoup(data)
 
 total_cost = 0
